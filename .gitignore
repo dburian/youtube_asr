@@ -1,0 +1,20 @@
+# Contains passwords
+task.pdf
+
+# Dataset
+data/**
+
+*.egg-info*
+
+# Notebook files
+notebooks/*.ipynb
+notebooks/.ipynb_checkpoints
+
+# Python stuff
+__pycache__
+
+# Checkpoints
+logs/checkpoints/**
+
+# Docker local settings
+.env

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube_asr"
+version = "0.0.1"
+authors = [{name = "David Burian", email = "david.burian@me.com"}]
+dependencies = [
+  "datasets>=3.0.1",
+  "jupyterlab>=4.2.5",
+  "jupyterlab_pygments>=0.3.0",
+  "jupyterlab_server>=2.27.3",
+  "jupytext>=1.16.4",
+  "matplotlib>=3.9.2",
+  "numpy>=2.0.2",
+  "pandas>=2.2.3",
+  "scikit-learn>=1.5.2",
+  "seaborn>=0.13.2",
+  "torch>=2.4.1",
+  "torchaudio>=2.4.1",
+  "tqdm>=4.66.5",
+  "transformers>=4.45.1",
+  "librosa>=0.10.2.post1",
+  "soundfile>=0.12.1",
+  "lightning>=2.4.0",
+  "tb-nightly>=2.19.0a20241008",
+  "torchmetrics>=1.4.2",
+  "ipywidgets>=8.1.5",
+  "coolname>=2.2.0",
+]
+
+
+[project.urls]
+homepage = "https://github.com/dburian/youtube_asr"
+repository = "https://github.com/dburian/youtube_asr"
+
+[tool.jupytext]
+formats = "ipynb,py:percent"
