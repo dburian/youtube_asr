@@ -1,7 +1,6 @@
-# ASR task from Seznam
+# ASR task Youtube recordings
 
-This is a repo containing my solution to the given task. The description of my
-solution is in `report/report.pdf`
+The description of my solution is in `report/report.pdf`
 
 ## Installation
 
